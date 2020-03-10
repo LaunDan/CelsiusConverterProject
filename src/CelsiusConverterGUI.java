@@ -11,6 +11,7 @@ public class CelsiusConverterGUI extends JFrame {
 
     public CelsiusConverterGUI(String title) {
         super(title);
+        setSize(500, 150);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setContentPane(mainPanel);
@@ -23,6 +24,7 @@ public class CelsiusConverterGUI extends JFrame {
             }
         });
     }
+
 
     public static void main(String[] args) {
         JFrame frame = new CelsiusConverterGUI("My celsius converter");
